@@ -135,10 +135,10 @@ agent.exploration_noise = 0.0f;
 
 | Metric | PC Simulation (x86_64) | STM32 MCU (ARM Cortex-M4) |
 | :--- | :--- | :--- |
-| **Static RAM Footprint** | 16.4 KB | 16.4 KB |
+| **Static RAM Footprint** | 16.0 KB | 16.0 KB |
 | **Dynamic Heap Usage** | 0 Bytes | 0 Bytes |
 | **Peak IPS (Iterations/sec)** | 262,674 IPS | 298 IPS |
-| **Average Step Time** | < 1 $\mu$s | ~3.3 ms |
+| **Average Step Time** | < 1 µs | ~3.3 ms |
 | **Failsafe Status** | Stable under 10% dropout | Stable under 10% dropout |
 
 ## License
